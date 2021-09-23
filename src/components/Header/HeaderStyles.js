@@ -27,7 +27,7 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding-top: 1rem;
@@ -48,6 +48,8 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
